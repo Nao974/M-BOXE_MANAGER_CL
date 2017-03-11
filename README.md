@@ -33,13 +33,20 @@ Python 3.4 est normalement déja installé sur Raspbian si vous utilisé `python
 
 ####Step 2: Active I2C
 
+
+* Comment the line `blacklist i2c-bcm2708` in the file `/ etc / modprobe.d / raspi-blacklist.conf`
+* Install the suite of I2C management tools `apt-get install i2c-tools`
+* Restart your Raspberry.
+
+Once your M-BOXE is set up and connected to the I2C bus, type `i2cdetect -y 1` (replace '1' with '0' with 256MB versions):  
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/i2cdetect.png" title="screenshoot_i2cdetect" alt="screenshoot_i2cdetect">  
+
 * Mettre en commentaire la ligne `blacklist i2c-bcm2708` dans le fichier `/etc/modprobe.d/raspi-blacklist.conf`
 * Installez la suite des outils de gestion I2C `apt-get install i2c-tools`
 * Redémarrer votre Raspberry.
 
-Une fois votre M-BOXE paramétrée et connectée au bus I2C, tapez la commande `i2cdetect -y 1` (remplacer '1' par '0' par les versions 256Mo):
-<img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/doc/i2cdetect.png" title="screenshoot_i2cdetect" alt="screenshoot_i2cdetect">
-Dans cet exemple, la M-BOXE est configurée à l'adresse 0x14.
+Une fois votre M-BOXE paramétrée et connectée au bus I2C, tapez la commande `i2cdetect -y 1` (remplacer '1' par '0' par les versions 256Mo).
+Dans l'exemple ci dessus, la M-BOXE est configurée à l'adresse 0x14.  
 
 
 ## Usage

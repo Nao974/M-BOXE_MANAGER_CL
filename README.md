@@ -1,6 +1,7 @@
 # M-BOXE_MANAGER_CL
 
 To manage your M-BOXE Servo-motor command line from a Rapsberry Pi by I2C  
+
 *Gérer votre M-BOXE Servo-moteur en ligne de commande à partir d'une Rapsberry Pi par I2C*
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL.png" title="Screenshoot Menu" alt="ScrenShoot Menu">
@@ -8,8 +9,6 @@ To manage your M-BOXE Servo-motor command line from a Rapsberry Pi by I2C
 ## First of all / Avant tout
 
 This program allows to parameterize an M-Boxe whose construction is detailed in the deposit [M-BOXE] (https://github.com/Nao974/M-BOXE/blob/master/README.md)  
-
---
 
 *Ce programme permet de paramétrer une M-Boxe dont la construction est detaillée dans le dépot [M-BOXE] (https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/readme.md)*  
 
@@ -21,7 +20,6 @@ This program allows to parameterize an M-Boxe whose construction is detailed in 
 `M-BOXE_DEMO.py` M-BOXE Motion Loop Demonstration  
 `M-BOXE_MANAGER_CL.py` Program for setting up your M-BOXE
 
---
 
 *`Ah_I2C.py` Librairie pour protocole I2C issue de la librairie ADAFRUIT_I2C*  
 *`M-BOXE.py` Classe définissant l'objet M-BOXE avec paramétre et fonction s'appuyant sur la librairie Ah-I2C.py*  
@@ -36,8 +34,6 @@ This program allows to parameterize an M-Boxe whose construction is detailed in 
 
 Python 3.4 is already installed if you use 'python3' instead of 'python', if it's not the case `sudo apt-get install python3`.  
 
---
-
 *Python 3.4 est normalement déja installé sur Raspbian si vous utilisé `python3`au lieu de `python`, si ce n'est pas le cas `sudo apt-get install python3`.*  
 
 
@@ -50,8 +46,6 @@ Python 3.4 is already installed if you use 'python3' instead of 'python', if it'
 
 Once your M-BOXE is set up and connected to the I2C bus, type `i2cdetect -y 1` (replace '1' with '0' with 256MB versions):  
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/i2cdetect.png" title="screenshoot_i2cdetect" alt="screenshoot_i2cdetect">  
-
---
 
 * *Mettre en commentaire la ligne `blacklist i2c-bcm2708` dans le fichier `/etc/modprobe.d/raspi-blacklist.conf`*
 * *Installez la suite des outils de gestion I2C `apt-get install i2c-tools`*
@@ -74,8 +68,6 @@ Go to folder, then type `python3 M-BOXE_MANAGER_CL.py`, enter the address of the
 To change a data item in the Parameter menu, enter the data number of the data:  
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL_Change_Registre.png" title="Change_Registrer" alt="Change_Registrer">  
 You can launch all I2C commands defined in the M-BOXE benchmarks [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)  
-
---
 
 *Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_CL.py`, saisir l'adresse de la M-BOXE (voir screenshoot ci dessus).*   
 

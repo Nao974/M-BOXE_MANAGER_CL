@@ -45,11 +45,34 @@ Once your M-BOXE is set up and connected to the I2C bus, type `i2cdetect -y 1` (
 * Installez la suite des outils de gestion I2C `apt-get install i2c-tools`
 * Redémarrer votre Raspberry.
 
-Une fois votre M-BOXE paramétrée et connectée au bus I2C, tapez la commande `i2cdetect -y 1` (remplacer '1' par '0' par les versions 256Mo).
+Une fois votre M-BOXE paramétrée et connectée au bus I2C, tapez la commande `i2cdetect -y 1` (remplacer '1' par '0' par les versions 256Mo).  
 Dans l'exemple ci dessus, la M-BOXE est configurée à l'adresse 0x14.  
 
 
 ## Usage
+
+
+Go to folder, then type `python3 M-BOXE_MANAGER_CL.py`
+Enter the address of the M-BOXE 
+  
+Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_CL.py`  
+Saisir l'adresse de la M-BOXE (voir screenshoot ci dessus)   
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL_Connexion.png" title="Connexion" alt="Connexion"> 
+
+
+* S to unfold the State (State)
+* D to unfold the Data menu
+* P to unfold the Parameter menu
+
+
+* S pour déplier le menu Etat (State)
+* D pour déplier le menu Données
+* P pour déplier le menu Paramètre
+
+
+Pour changer une donnée du menu Paramètre, tapez le N° de registre de la donnée.
+
+
 
 
 

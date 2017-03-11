@@ -72,6 +72,7 @@ To change a data item in the Parameter menu, enter the data number of the data:
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL_Change_Registre.png" title="Change_Registrer" alt="Change_Registrer">  
 You can launch all I2C commands defined in the M-BOXE benchmarks [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)  
 
+--
 
 *Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_CL.py`, saisir l'adresse de la M-BOXE (voir screenshoot ci dessus).*   
 

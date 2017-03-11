@@ -12,7 +12,7 @@ To manage your M-BOXE Servo-motor command line from a Rapsberry Pi by I2C
 This program allows to parameterize an M-Boxe whose construction is detailed in the deposit [M-BOXE] (https://github.com/Nao974/M-BOXE/blob/master/README.md)  
 
 
-*Ce programme permet de paramétrer une M-Boxe dont la construction est detaillée dans le dépot [M-BOXE] (https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/readme.md)*  
+*Ce programme permet de paramétrer une M-Boxe dont la construction est detaillée dans le dépot [M-BOXE] (https://github.com/Nao974/M-BOXE/blob/master/README.md)*  
 
 ## Contents / Contenu
 

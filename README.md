@@ -4,6 +4,10 @@ To manage your M-BOXE Servo-motor command line from a Rapsberry Pi by I2C / Gér
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/Photo_CL.jpg" title="Photo CL" alt="Photo CL">
 
+## First of all / Avant tout
+
+This program allows to parameterize an M-Boxe whose construction is detailed in the deposit [M-BOXE] (https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/readme.md)  
+Ce programme permet de paramétrer une M-Boxe dont la construction est detaillée dans le dépot [M-BOXE] (https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/readme.md)  
 
 ## Contents / Contenu
 
@@ -52,11 +56,9 @@ Dans l'exemple ci dessus, la M-BOXE est configurée à l'adresse 0x14.
 ## Usage
 
 
-Go to folder, then type `python3 M-BOXE_MANAGER_CL.py`
-Enter the address of the M-BOXE 
+Go to folder, then type `python3 M-BOXE_MANAGER_CL.py`, enter the address of the M-BOXE 
   
-Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_CL.py`  
-Saisir l'adresse de la M-BOXE (voir screenshoot ci dessus)   
+Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_CL.py`, saisir l'adresse de la M-BOXE (voir screenshoot ci dessus)   
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL_Connexion.png" title="Connexion" alt="Connexion"> 
 
 
@@ -65,15 +67,16 @@ Saisir l'adresse de la M-BOXE (voir screenshoot ci dessus)
 * P to unfold the Parameter menu
 
 
+
 * S pour déplier le menu Etat (State)
 * D pour déplier le menu Données
 * P pour déplier le menu Paramètre
 
 
-Pour changer une donnée du menu Paramètre, tapez le N° de registre de la donnée.
+Pour changer une donnée du menu Paramètre, tapez le N° de registre de la donnée:  
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL_Change_Registre.png" title="Change_Registrer" alt="Change_Registrer">  
 
-
-
+Vous pouvez lancer toutes les commandes I2C définies dans le référenciel de la M-BOXE  [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)
 
 
 ## History / Historique

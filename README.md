@@ -2,7 +2,7 @@
 
 To manage your M-BOXE Servo-motor command line from a Rapsberry Pi by I2C / Gérer votre M-BOXE Servo-moteur en ligne de commande à partir d'une Rapsberry Pi par I2C
 
-<img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/Photo_CL.jpg" title="Photo CL" alt="Photo CL">
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL.png" title="Screenshoot Menu" alt="ScrenShoot Menu">
 
 ## First of all / Avant tout
 

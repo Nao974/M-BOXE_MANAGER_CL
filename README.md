@@ -7,15 +7,15 @@ To manage your M-BOXE Servo-motor command line from a Rapsberry Pi by I2C.
 
 ## First of all
 
-This program allows to parameterize an M-Boxe whose construction is detailed in the deposit [M-BOXE] (https://github.com/Nao974/M-BOXE/blob/master/README.md)  
+This program allows to parameterize an M-Boxe whose construction is detailed in the deposit [M-BOXE](https://github.com/Nao974/M-BOXE/blob/master/README.md)  
 
 ## Contents
 
-`Ah_I2C.py` Libraries for I2C protocol from the ADAFRUIT_I2C library
+`Ah_I2C.py` Libraries for I2C protocol from the ADAFRUIT_I2C library  
 `M-BOXE.py` Class defining the M-BOXE object with parameter and function based on the Ah-I2C.py library  
 
 `M-BOXE_DEMO.py` M-BOXE Motion Loop Demonstration  
-`M-BOXE_MANAGER_CL.py` Program for setting up your M-BOXE
+`M-BOXE_MANAGER_CL.py` Program for setting up your M-BOXE  
 
 
 ## Installation

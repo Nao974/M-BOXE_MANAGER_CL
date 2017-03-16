@@ -45,7 +45,8 @@ Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_CL.py`, saisir l'adresse 
 * D pour agrandir le menu Données
 * P pour agrandir le menu Paramètre
 
-Pour changer une donnée du menu Paramètre, tapez le N° de registre de la donnée: (voir screenshoot ci dessus). 
+Pour changer une donnée du menu Paramètre, tapez le N° de registre de la donnée:  
+<img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL_Change_Registre.png" title="Change_Registrer" alt="Change_Registrer">  
 Vous pouvez lancer toutes les commandes I2C définies dans le référenciel de la M-BOXE  [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)  
 
 

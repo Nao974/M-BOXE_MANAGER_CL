@@ -1,13 +1,13 @@
 # M-BOXE_MANAGER_CL
 [English Version](https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/README.md)  
 
-Gérer votre M-BOXE Servo-moteur en ligne de commande à partir d'une Rapsberry Pi par I2C
+Gérer votre M-BOXE Servo-moteur en ligne de commande à partir d'une Rapsberry Pi par I2C.
 
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL.png" title="Screenshoot Menu" alt="ScrenShoot Menu">
 
 ## Avant tout
 
-Ce programme permet de paramétrer une M-Boxe dont la construction est detaillée dans le dépot [M-BOXE] (https://github.com/Nao974/M-BOXE/blob/master/README.md)  
+Ce programme permet de paramétrer une M-Boxe dont la construction est detaillée dans le dépot [M-BOXE](https://github.com/Nao974/M-BOXE/blob/master/README.md).  
 
 ## Contenu
 
@@ -47,7 +47,7 @@ Aller dans dossier, puis tapez `python3 M-BOXE_MANAGER_CL.py`, saisir l'adresse 
 
 Pour changer une donnée du menu Paramètre, tapez le N° de registre de la donnée:  
 <img src="https://github.com/Nao974/M-BOXE_MANAGER_CL/blob/master/screenshoot/Manager_CL_Change_Registre.png" title="Change_Registrer" alt="Change_Registrer">  
-Vous pouvez lancer toutes les commandes I2C définies dans le référenciel de la M-BOXE  [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)  
+Vous pouvez lancer toutes les commandes I2C définies dans le référenciel de la M-BOXE: [Parameter_M-BOXE.pdf](https://github.com/Nao974/M-BOXE/blob/master/doc/Parameter_M-BOXE.pdf)  
 
 
 ## Historique
